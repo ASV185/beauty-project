@@ -21,43 +21,51 @@
     <title>Mielle</title>
 </head>
 <style>
+    :root {
+        --primary-color: #DC377E;
+        --secondary-color: white;
+        --primary-font-family: "Cinzel", serif;
+        --secondary-font-family: 'Ubuntu', sans-serif;
+        --accent-font-family: 'Poppins', sans-serif;
+    }
+
     h1 {
-        font-family: "Cinzel", serif;
+        font-family: var(--primary-font-family);
         font-size: 3rem;
     }
 
     h1 b {
-        color: #DC377E;
+        color: var(--primary-color);
     }
 
     h2 {
-        font-family: "Cinzel", serif;
+        font-family: var(--primary-font-family);
         font-size: 2rem;
     }
 
     h3 {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: var(--secondary-font-family);
         font-size: 1.5rem;
     }
 
     h4 {
-        font-family: 'Poppins', sans-serif;
+        font-family: var(--accent-font-family);
         font-size: 1.25rem;
     }
 
     h5 {
-        font-family: "Cinzel", serif;
+        font-family: var(--primary-font-family);
     }
 
     p {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: var(--secondary-font-family);
         font-size: 1.5rem;
     }
 
     a {
-        border: 2px solid white;
+        border: 2px solid var(--secondary-color);
         text-decoration: none;
-        color: white;
+        color: var(--secondary-color);
         padding: 0.75rem 0.75rem;
         border-radius: 1em 1em 1em 1em;
         font-weight: 500;
@@ -65,8 +73,8 @@
 
     a:hover {
         color: white;
-        background-color: #DC377E;
-        border: 2px solid #DC377E;
+        background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
     }
 
     header img {
@@ -74,7 +82,7 @@
     }
 
     .testimonials-section p {
-        font-family: 'Poppins', sans-serif;
+        font-family: var(--accent-font-family);
         font-size: 0.8rem;
     }
 
@@ -83,11 +91,11 @@
     }
 
     footer {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: var(--secondary-font-family);
     }
 
     figcaption {
-        background-color: #DEDEDE;
+        background-color: var(--secondary-color);
         color: #383838;
     }
 </style>
