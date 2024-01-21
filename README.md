@@ -9,3 +9,4 @@
 ![beauty-project-8](https://github.com/ASV185/beauty-project/assets/74805696/c8b23903-13b6-48bf-9788-bb559f1c3ed9)
 ![beauty-project-9](https://github.com/ASV185/beauty-project/assets/74805696/fa55c51f-23f3-42ec-8b0f-151ee39cc9a4)
 
+Website: https://mielle-landing-page.netlify.app/
